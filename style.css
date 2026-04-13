@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  border-radius: 50%;
+}
+.centered {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img{
+    margin-top: 100px;
+    border-radius: 50px;
+}
+
+.gallery-icon{
+    font-size: 40px;
+
+}
+
+p{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+body{
+    background-color: bisque;
+}
