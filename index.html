@@ -5,7 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel</title>
     <base target="_blank">
-    <link rel="stylesheet" href="style.css">
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    }
+    body{
+        background-color: antiquewhite;
+    }
+    .column{
+        float: left;
+        width: 20%;
+    }
+    .row{
+        float:center;
+    }
+    figcaption{
+        text-align: center;
+    }
+
+    figure{
+        text-align: center;
+    }
+    .video-text{
+        clear: both;
+        margin-top: 15rem;
+    }
+
+    p{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left:20px;
+
+    }
+
+    h1{
+        margin-left: 1%;
+    }
+</style>
 </head>
 
 <body>
@@ -14,23 +51,44 @@
     <h1> Welcome to Saudi trip! </h1>
     <p> Click on the icons below to see the photo gallery...</p>
 
-        <div class="container">
-            <div class="gallery-icon">
-                <img src="Badr/resized_20260327_1202371775734876.jpg" alt="badr" style="width:20%">
-                <div class="centered"> <a href="badr.html"> Badr</a> </div>  
+        <div class="image-gallery-list">  
+            <div class="row">
+                <div class="column">
+                    <figure>
+                        <img src="Badr/resized_1_20260327_1447311775735025.jpg" alt="Badr" height="128px">
+                        <figcaption> <a href="badr.html"> Badr</a></figcaption>
+                    </figure>
+                </div>
+                <div class="column">
+                    <figure> 
+                        <img src="Taif/resized_2_20260403_172135.jpg" alt="Badr" height="128px">
+                        <figcaption> <a href="taif.html"> Taif </a></figcaption>
+                    </figure>
+                    
+                </div>
+                <div class="column">
+                    <figure>
+                        <img src="Jeddah/resized_2_20260404_1705241776067082.jpg" alt="Badr" height="128px">
+                        <figcaption> <a href="jeddah.html"> Jeddah</a></figcaption>
+                    </figure>
+
+                </div>
             </div>
-        </div>      
-        <div class="container">
-            <div class="gallery-icon">
-                <img src="Taif/resized_2_20260403_154204.jpg" alt="badr" style="width:20%">
-                <div class="centered">  <a href="taif.html"> Taif </a> </div>
-            </div>    
         </div>
-        <div class="container">
-            <div class="gallery-icon">
-                <img src="Jeddah/resized_2_20260404_1505181776067075.jpg" alt="badr" style="width:20%">
-                <div class="centered">  <a href="jeddah.html"> Jeddah </a> </div>
-            </div>    
-        </div>
+
+    <div class="video-text">
+        <p> Click below to see videos...</p>
+    </div>
+
+    <video width="240" height="320" controls>
+        <source src="output.mp4" type="video/mp4">
+    </video>
+        <video width="240" height="320" controls>
+        <source src="output2.mp4" type="video/mp4">
+    </video>
+        <video width="240" height="320" controls>
+        <source src="output3.mp4" type="video/mp4">
+    </video>
+
 </body>
 </html>
