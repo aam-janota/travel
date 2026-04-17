@@ -38,7 +38,7 @@ img {
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: blueviolet;
+  color: rgb(32, 34, 150);
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
@@ -70,8 +70,8 @@ img {
 /* Container for image text */
 .caption-container {
   text-align: center;
-  background-color: #222;
-  padding: 2px 16px;
+  background-color: #302f2f;
+  padding: 20px 16px;
   color: white;
 }
 
@@ -98,5 +98,5 @@ img {
 }
 
 body{
-    background-color: aliceblue;
+    background-color: rgb(119, 170, 214);
 }
