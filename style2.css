@@ -26,14 +26,15 @@
   position: absolute;
   top: 40%;
   width: auto;
-  padding: 16px;
-  margin-top: -800px;
-  color: rgb(36, 9, 189);
+  padding: 20px;
+  margin-top: -600px;
+  color: white;
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
+  display: inline-block;
 }
 
 /* Position the "next button" to the right */
