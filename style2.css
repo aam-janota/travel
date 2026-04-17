@@ -1,17 +1,7 @@
-body {
-  font-family: Arial;
-  margin: 0;
-  width: 100vw;
-  height: 100vh;
-}
-
 * {
   box-sizing: border-box;
-}
-
-img {
-  display: block;
-  margin: auto;
+  margin: 0;
+  padding: 0;
 }
 
 /* Position the image container (needed to position the left and right arrows) */
@@ -37,8 +27,8 @@ img {
   top: 40%;
   width: auto;
   padding: 16px;
-  margin-top: -50px;
-  color: rgb(32, 34, 150);
+  margin-top: -800px;
+  color: rgb(36, 9, 189);
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
@@ -60,9 +50,9 @@ img {
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #ee75ca;
+  color: #f2f2f2;
   font-size: 20px;
-  padding: 8px 100px;
+  padding: 8px 12px;
   position: absolute;
   top: 0;
 }
@@ -70,8 +60,8 @@ img {
 /* Container for image text */
 .caption-container {
   text-align: center;
-  background-color: #302f2f;
-  padding: 20px 16px;
+  background-color: #222;
+  padding: 2px 16px;
   color: white;
 }
 
@@ -83,8 +73,8 @@ img {
 
 /* Six columns side by side */
 .column {
-    float: left;
-    width: 20%;
+  float: left;
+  width: 20%;
 }
 
 /* Add a transparency effect for thumnbail images */
@@ -98,5 +88,17 @@ img {
 }
 
 body{
-    background-color: rgb(119, 170, 214);
+  background-color: rgb(51, 51, 50);
+}
+
+
+
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+h3{
+  color: white;
 }
