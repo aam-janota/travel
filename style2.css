@@ -30,13 +30,14 @@
   margin-top: -450px;
   color: white;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 15px;
   border-radius: 20px 20px 20px 20px;
   user-select: none;
   -webkit-user-select: none;
   display: inline-block;
   background-color: rgb(75, 73, 73);
   text-align: center;
+  opacity: 0.8;
 }
 
 /* Position the "next button" to the right */
