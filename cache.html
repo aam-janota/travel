@@ -3,21 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cache</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="navbar.css">
 </head>
 <body>
-    <img id = "img1" src="" alt="">
-    <p id="demo1"> Hi </p>
-    <p id="demo2"></p>
-    <img id = "img2" src="" alt="">
-
-    <script>
-
-        const images = ["Taif/resized_1_20260403_163402.jpg", "Taif/resized_1_20260403_171357.jpg"]
-        for (let i = 1; i < 3; i++){
-            const idd = "\"demo"+i+"\""
-            document.getElementById("demo1").textContent =idd;
-        }
-    </script>
+    <div class="topnav">
+        <a href="#home" class="active"> Logo </a>
+    <div id="myLinks">
+        <a href="badr.html"> Badr </a>
+        <a href="taif.html"> Taif </a>
+        <a href="#Jeddah"> Jeddah </a>
+        <a href="madinah.html"> Madinah </a>
+        <a href="#Makkah"> Makkah </a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i></a>
+    </div>
+    <script src="navbar.js"></script>
 </body>
 </html>
